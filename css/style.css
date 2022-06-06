@@ -1,0 +1,64 @@
+body {
+    background: url(../img/Op7.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* text-align: center; */
+    font-family: tahoma;
+    line-height: 1.5;
+}
+
+.titul {
+    /* width: 500px; */
+    padding: 30px;
+    margin: 0 auto;
+    background: url(../img/Op3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 15px 10px #000;
+    width: 1200px;
+
+}
+
+.zagolovok {
+    font-size: 40px;
+    color: rgb(224, 249, 253);
+    -webkit-text-stroke-color: rgb(75, 14, 14);
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.gon_1 {
+    background: url(../img/Gon1.jpg);
+    margin: 0 auto;
+    /* padding: 1px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    box-shadow: 0px 10px 15px 10px #000;
+    font-size: 25px;
+    color: rgb(224, 249, 253);
+    -webkit-text-stroke-color: rgb(68, 53, 2);
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    font-family: fantasy;
+
+}
+
+.gon_2 {
+    background: url(../img/gon2.jpg);
+    padding: 5px;
+    /* Поля вокруг текста */
+    background: #ffd7f1;
+    /* Цвет фона */
+    margin: 0 auto;
+    /* Выравниваем слой по центру */
+    width: 70%;
+    /* Ширина слоя */
+    opacity: 0.90;
+    /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+    /* Прозрачность в IE */
+}
